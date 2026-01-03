@@ -1,0 +1,12 @@
+[provider]
+cluster = "localnet"
+wallet = "~/.config/solana/id.json"
+
+[programs.localnet]
+counter = "98TesPv4nou51Bxx1JdBZ79tpDCunmLCWA3mgoPECyhY"  # ← временный ID, заменится после build
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
