@@ -14,15 +14,16 @@
 
 ---
 
-## 📂 Структура проектаsolana-counter/
-├── programs/counter/src/lib.rs # ✅ Контракт на Rust (Anchor)
-├── tests/counter.ts # ✅ E2E-тесты на TypeScript
-├── Anchor.toml # Конфигурация Anchor (кластер, кошелёк, ID программы)
-├── Cargo.toml # Workspace: настройки overflow-checks, resolver
-├── programs/counter/Cargo.toml # Зависимости Rust-программы (anchor-lang)
-├── package.json # Зависимости JS/TS (anchor, chai, ts-mocha)
-├── tsconfig.json # Конфигурация TypeScript (CommonJS)
-└── README.md # Этот файл
+## 📂 Структура проекта
+
+- `programs/counter/src/lib.rs` — контракт на Rust (Anchor)
+- `tests/counter.ts` — E2E-тесты на TypeScript
+- `Anchor.toml` — конфигурация Anchor
+- `Cargo.toml` — workspace-настройки
+- `programs/counter/Cargo.toml` — зависимости программы
+- `package.json` — JS/TS-зависимости
+- `tsconfig.json` — конфигурация TypeScript
+- `README.md` — этот файл
 
 ---
 
